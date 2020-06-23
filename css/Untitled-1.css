@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgba(122, 121, 121, 0.9);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;}
+ 
+    
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size:35px;
+}
+a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    color: yellowgreen;
+    border-bottom: 2px red solid;
+    transition: 0.5s;
+}
+.banner-area{
+    position: relative;
+    background-image: url(img/65144542_p0.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.banner-area p{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: white;
+    font-size: 100px;
+}
+.portfolio-area img{
+    width: 200px;
+    height: 550px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.s img{
+    width: 350px;
+    height: 150px;
+    cursor: pointer;
+}
+.s p{
+    margin-left: 110px;
+    margin-top: -20px;
+    color: chocolate;
+    cursor: pointer;
+}
+.a img{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    position: absolute;
+    left: 600px;
+    top: 160px;
+}
+.a p{
+    margin-left: 110px;
+    margin-top: -20px;
+    color: chocolate;
+    cursor: pointer;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+}
+.about-area, .portfolio-area, .service-area, .contact-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    widows: 100%;
+    height: 700px; 
+}
+.text-part{
+    width: 75%;
+    height: 65%;
+}
+h1{
+    font-size: 40px;
+    margin-top: -60px;
+}
+p{
+    font-size: 24px;
+    line-height: 70px;
+}
+.about-area, .service-area{
+    background: #fefefe;
+}
+.portfolio-area, .contact-area{
+    background: #262626;
+    color: #fff;
+}
+html{
+    scroll-behavior: smooth;
+}
+
